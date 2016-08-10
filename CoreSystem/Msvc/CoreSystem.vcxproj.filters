@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="CoreSystem.h">
+      <Filter>Msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkStd.h">
+      <Filter>Msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\Generics.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\Logging.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\Macros.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\Platform.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\Template.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Msvc">
+      <UniqueIdentifier>{cfeae4f6-bc5c-4219-8143-05097ff5d27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{94d3d858-7a33-4d62-8470-039a81f75dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{cf8f8b19-527b-4fa1-9676-cc70502a11de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

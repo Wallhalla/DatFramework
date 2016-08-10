@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Msvc">
+      <UniqueIdentifier>{57bf9c22-936e-40bb-b3f5-61ee77b75d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{47cff95d-cb98-4361-846c-841eb32244a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Algorithms">
+      <UniqueIdentifier>{420b6950-5322-4467-b9e4-22f5f6c162e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Algorithms\GUIDGenerator">
+      <UniqueIdentifier>{34024068-a322-4b9e-8a3c-e1183a1b17d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Algorithms\GUIDGenerator\Private">
+      <UniqueIdentifier>{267814bf-60df-44fa-9a28-c6ed582b1d7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UtilitiesStd.h">
+      <Filter>Msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Algorithms\GUIDGenerators\GUIDGenerator.h">
+      <Filter>src\Algorithms\GUIDGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Algorithms\GUIDGenerators\Private\Generators.h">
+      <Filter>src\Algorithms\GUIDGenerator\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Algorithms\GUIDGenerators\GUIDGenerator.cpp">
+      <Filter>src\Algorithms\GUIDGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Algorithms\GUIDGenerators\Private\Generators.cpp">
+      <Filter>src\Algorithms\GUIDGenerator\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

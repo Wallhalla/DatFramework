@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Msvc">
+      <UniqueIdentifier>{5b501edb-9890-4369-b91b-9778e501e9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{07dfb386-a29f-4b7c-8510-2b21a61f2a41}</UniqueIdentifier>
+      <Extensions>h;cpp</Extensions>
+    </Filter>
+    <Filter Include="src\Events">
+      <UniqueIdentifier>{5e74260a-61e1-40d9-8738-e6c8e076bbdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\EventManager">
+      <UniqueIdentifier>{0b3f644d-8cb7-4c2f-b37c-6de9f80f7baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\EventListener">
+      <UniqueIdentifier>{ac1357b8-9c5e-4715-a7c9-3f6c02f10f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\EventManager\Private">
+      <UniqueIdentifier>{08ba3e1d-0944-4d26-9fdb-998aa340a354}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EventSystem.h">
+      <Filter>Msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystemStd.h">
+      <Filter>Msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EventManager\EventManager.h">
+      <Filter>src\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Events\EventInterface.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EventListener\EventListenerInterface.h">
+      <Filter>src\EventListener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EventManager\DefaultEventManager.h">
+      <Filter>src\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EventManager\Private\DefaultEventManagerImpl.h">
+      <Filter>src\EventManager\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\EventManager\EventManager.cpp">
+      <Filter>src\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Events\EventInterface.cpp">
+      <Filter>src\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EventListener\EventListenerInterface.cpp">
+      <Filter>src\EventListener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EventManager\DefaultEventManager.cpp">
+      <Filter>src\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EventManager\Private\DefaultEventManagerImpl.cpp">
+      <Filter>src\EventManager\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
